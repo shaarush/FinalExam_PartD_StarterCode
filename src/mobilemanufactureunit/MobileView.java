@@ -25,7 +25,7 @@ public static MobileManufactureLocation Brampton = new MobileManufactureLocation
         System.out.println("What kind of Mobile do you want?");
         System.out.println("Please enter exactly iphone or samsung");
         String type = sc.nextLine();
-        MobileFactory pf = new MobileFactory();
+        MobileTypes pf = new MobileTypes();
         Mobile mobile= pf.createMobile(type);
         System.out.println("how many mobiles would you like?");
         int numMobiles = sc.nextInt();
