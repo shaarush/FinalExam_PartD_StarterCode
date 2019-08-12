@@ -10,7 +10,7 @@ package mobilemanufactureunit;
  *
  * @author kumarayyaduraigunaseelan
  */
-public class MobileFactory 
+public class MobileTypes
 {
      public Mobile createMobile(String type)
     {
