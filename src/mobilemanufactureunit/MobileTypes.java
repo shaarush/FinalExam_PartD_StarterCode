@@ -8,7 +8,7 @@ package mobilemanufactureunit;
 /** A class that creates different kinds of Mobiles
  *  depending on their type.
  *
- * @author kumarayyaduraigunaseelan
+ * @author Sivagama Srinivasan
  */
 public class MobileTypes
 {
