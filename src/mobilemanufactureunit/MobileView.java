@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * Question for Final Exam Part D.
  * Manufactures a Mobile of a given type based on the purchase orders.
- * @author Sivagama Srinivasan
+ ** @author Sivagama Srinivasan
  */
 public class MobileView 
 {
