@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Sivagama Srinivasan
- */
+ **/
 public class Mobile 
 {
 public String shopName= "CellCampus";
