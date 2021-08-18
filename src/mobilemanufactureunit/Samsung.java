@@ -9,7 +9,7 @@ package mobilemanufactureunit;
  *  A class to model mobile Samsung
  * 
  * @author Sivagama Srinivasan
- * */
+ ** */
 public class Samsung extends Mobile
 {
     
