@@ -10,7 +10,7 @@ package mobilemanufactureunit;
  * Mobiles to ensure consistency.
  * Users can order the number of Mobiles they want to buy
  * @author Sivagama Srinivasan
- April 13TH,2020 */
+  */
 public class MobileManufactureLocation
 {
   public int numofMobile = 0;// how many orders to manufacture Mobile
