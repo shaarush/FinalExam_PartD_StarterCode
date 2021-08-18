@@ -9,7 +9,7 @@ package mobilemanufactureunit;
  *  depending on their type.
  *
  * @author Sivagama Srinivasan
- */
+ **/
 public class MobileTypes
 {
      public Mobile createMobile(String type)
