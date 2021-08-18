@@ -8,7 +8,7 @@ package mobilemanufactureunit;
 /**
  *  A class to model mobile Iphone
  * @author Sivagama Srinivasan
- */
+ **/
 public class Iphone extends Mobile
 
 {
