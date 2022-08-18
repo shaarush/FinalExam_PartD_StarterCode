@@ -9,7 +9,8 @@ package mobilemanufactureunit;
  * We only ever want one manufacture location to make 
  * Mobiles to ensure consistency.
  * Users can order the number of Mobiles they want to buy
- * @author Sivagama Srinivasan
+ * @author Sivagama Srinivasan 
+ august
   */
 public class MobileManufactureLocation
 {
