@@ -1,22 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package mobilemanufactureunit;
 
-/** A class that manufactures Mobile.
- * We only ever want one manufacture location to make 
- * Mobiles to ensure consistency.
- * Users can order the number of Mobiles they want to buy
- * @author Sivagama Srinivasan 
- august
-  */
-public class MobileManufactureLocation
-{
-  public int numofMobile = 0;// how many orders to manufacture Mobile
-    public MobileManufactureLocation()
-    {
-        //intentionally left blank
-    }  
+public class MobileManufactureLocation {
+
+    // The single instance of the class, initially null
+    private static MobileManufactureLocation instance;
+
+    // Number of mobiles to be manufactured
+    public int numofMobile = 0;
+
+    // Private constructor to prevent instantiation from outside
+    private MobileManufactureLocation() {
+        // Intentionally left blank
+    }
+
+    // Method to provide the single instance of the class
+    public static MobileManufactureLocation getInstance() {
+        if (instance == null) {
+            instance = new MobileManufactureLocation();
+        }
+        return instance;
+    }
+
+    // Method to order mobiles
+    public void orderMobiles(int quantity) {
+        numofMobile += quantity;
+        System.out.println("Order placed for " + quantity + " mobiles. Total mobiles to manufacture: " + numofMobile);
+    }
 }
